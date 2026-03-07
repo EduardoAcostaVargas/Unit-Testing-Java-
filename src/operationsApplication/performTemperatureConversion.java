@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class performTemperatureConversion {
 
     //Method to choose conversion type
-    public void temperatureConvertion() {
+    public static void temperatureConversion() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("---------- TEMPERATURE CONVERTER ----------");
