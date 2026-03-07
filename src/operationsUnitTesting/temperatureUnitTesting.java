@@ -37,4 +37,29 @@ public class temperatureUnitTesting {
     }
 
     //Fahrenheit to Celsius Tests
+    @Test
+    public void test4() {
+        double fahrenheit = 98.6;
+        double result = temperatureConverter.fahrenheitToCelsius(fahrenheit);
+
+        assertEquals(37, result, DELTA);
+    }
+
+    @Test
+    public void test5() {
+        double fahrenheit = 212;
+        double result = temperatureConverter.fahrenheitToCelsius(fahrenheit);
+
+        assertEquals(100, result, DELTA);
+    }
+
+    @Test
+    public void test6() {
+        double fahrenheit = 32;
+        double result = temperatureConverter.fahrenheitToCelsius(fahrenheit);
+
+        assertEquals(0, result, DELTA);
+    }
+
+
 }

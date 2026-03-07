@@ -1,7 +1,6 @@
 package operationsApplication;
 
 import operationsLibrary.temperatureConverter;
-
 import java.util.Scanner;
 
 public class performTemperatureConversion {
